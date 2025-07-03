@@ -5,7 +5,7 @@ import asianBeauty from '../../src/assets/asianBeauty.jpeg'
 import asianCity from '../../src/assets/asianCity.jpeg'
 import asianCuisine from '../../src/assets/asianCuisine.jpeg'
 import asianCulture from '../../src/assets/asianCulture.jpeg'
-import asianhospitality from '../../src/assets/asianhospitality.jpeg'
+import asianhospitality from '../../src/assets/asianHospitality.jpeg'
 
 const Asia = () => {
   const [image, setImage] = useState(1)
