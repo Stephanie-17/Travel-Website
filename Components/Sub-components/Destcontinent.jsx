@@ -2,7 +2,7 @@ import { useState } from "react"
 import './Destcontinent.css'
 import adventure from '../../src/assets/adventure.jpeg'
 import beach from '../../src/assets/beach.jpeg'
-import cuisine from '../../src/assets/cuisine.jpeg'
+import cuisine from '../../src/assets/Cuisine.jpeg'
 import heritage from '../../src/assets/cultural-heritage.jpeg'
 import wildlife from '../../src/assets/wild-life.jpeg'
 import wonder from  '../../src/assets/naturalWonders.jpeg'
