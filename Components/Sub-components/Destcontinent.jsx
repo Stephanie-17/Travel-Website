@@ -1,5 +1,4 @@
 import { useState } from "react"
-import React  from 'react'
 import './Destcontinent.css'
 import adventure from '../../src/assets/adventure.jpeg'
 import beach from '../../src/assets/beach.jpeg'
@@ -55,7 +54,7 @@ const Destcontinent = () => {
 
                             <img src={wildlife} alt="wildlife and nature" />
                             
-                            <p><span>Rich cultural heritage:</span>Discover Africa's vibrant cultural tapestry,
+                            <p><span>Rich cultural heritage:</span>Discover Africas vibrant cultural tapestry,
                              with 2,000 languages and 3,000 ethnic groups. Explore museums, historical sites,
                               and cultural festivals to uncover ancient traditions and modern identity.
                             </p>
@@ -73,7 +72,7 @@ const Destcontinent = () => {
                     <span></span>
 
                     <div className="left-side">
-                        <p><span>Wildlife and nature:</span> Experience Africa's incredible wildlife and natural wonders
+                        <p><span>Wildlife and nature:</span> Experience Africas incredible wildlife and natural wonders
                         , from majestic lions to breathtaking Victoria Falls. Witness the Great Migration, explore national
                          parks, or take a hot air balloon safari.
                         </p>
@@ -87,7 +86,7 @@ const Destcontinent = () => {
 
                         <p><span>Warm hospitality and cuisine:</span> Indulge in African hospitality, savoring spicy jollof rice
                         , flavorful tagines, and tender injera bread. Engage with locals, learn traditional dances, or join a 
-                        festive celebration to experience Africa's warmth.
+                        festive celebration to experience Africas warmth.
                         </p>
                     </div>
               </div> 
@@ -216,13 +215,13 @@ const Destcontinent = () => {
                        <p><span>Coastal charm:</span>Discover pristine beaches, coral reefs,
                         and scenic coastlines, including the Great Barrier Reef, Surfers Paradise,
                          Bondi Beach, and Margaret River. With over 50,000 kilometers of coastline,
-                          you'll find plenty of secluded spots.
+                          youll find plenty of secluded spots.
                        </p>
 
                        <img src={aussieUrban} alt="urban delights" />
                        <p><span>Natural marvels:</span>Marvel at Uluru (Ayers Rock), the Great Ocean 
                        Road, Blue Mountains National Park, Kakadu National Park, and the Pinnacles 
-                       Desert. Australia's diverse landscapes are breathtaking.
+                       Desert. Australias diverse landscapes are breathtaking.
                        </p>
 
                        <img src={aussieAdventure} alt="adventure playground" />
@@ -237,14 +236,14 @@ const Destcontinent = () => {
                     zoos and wildlife sanctuaries to encounter these iconic animals.</p>
                    <img src={aussieCoast} alt="Coastal charm" />
 
-                   <p><span>Urban delights:</span>Australia's cities are vibrant and cosmopolitan. 
-                   Sydney's Opera House and Harbour Bridge are must-visits, while Melbourne's
-                    cultural scene and Brisbane's arts scene are worth exploring.
+                   <p><span>Urban delights:</span>Australias cities are vibrant and cosmopolitan. 
+                   Sydneys Opera House and Harbour Bridge are must-visits, while Melbournes
+                    cultural scene and Brisbanes arts scene are worth exploring.
                    </p>
                    <img src={aussieNature} alt="Natural marvels" />
 
                    <p><span>Adventure playground:</span>Enjoy surfing, snorkeling, hiking, 
-                   scuba diving, skydiving, and camping under the stars. Australia's diverse 
+                   scuba diving, skydiving, and camping under the stars. Australias diverse 
                    climates and landscapes make it perfect for outdoor enthusiasts.
 
 </p>
@@ -269,8 +268,8 @@ const Destcontinent = () => {
                <div className="right-side">
 
                        <img src={europeHeritage} alt="Immersive Heritage Experience" />
-                       <p><span>Breathtaking Landscapes:</span>Explore Europe's diverse geography, from Norway's 
-                       majestic fjords to Switzerland's towering Alps. Visit charming villages, pristine
+                       <p><span>Breathtaking Landscapes:</span>Explore Europes diverse geography, from Norways 
+                       majestic fjords to Switzerlands towering Alps. Visit charming villages, pristine
                         beaches, and idyllic islands in Greece, Italy, and Spain.
                        </p>
 
@@ -286,18 +285,18 @@ const Destcontinent = () => {
                <span>.</span>
 
                <div className="left-side">
-                   <p><span>Immersive Heritage Experience:</span>Uncover the continent's fascinating past,
+                   <p><span>Immersive Heritage Experience:</span>Uncover the continents fascinating past,
                     from ancient ruins to majestic palaces. Discover iconic symbols of European identity,
                      such as the Eiffel Tower, Colosseum, and Acropolis.
 </p>
                    <img src={europeLandscape} alt="breathtaking landscapes" />
 
                    <p><span>Artistic and Architectural Treasures:</span>Marvel at masterpieces in renowned 
-                   museums like the Louvre, Uffizi, and Prado. Admire the continent's rich architectural
+                   museums like the Louvre, Uffizi, and Prado. Admire the continents rich architectural
                     heritage, from Gothic to Renaissance styles, in cities like Paris, Rome, and Barcelona.</p>
                    <img src={europeUrban} alt="Vibrant Urban Centers" />
 
-                   <p><span>Culinary Delights:</span>Indulge in Europe's renowned cuisine, from Italian
+                   <p><span>Culinary Delights:</span>Indulge in Europes renowned cuisine, from Italian
                     pasta to Spanish tapas and French patisserie. Sample exceptional wines from Italy,
                      France, Spain, and Portugal.
                    </p>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import NavBar from './NavBar'
 import TryAgain from './Hero'
 import './cont.css'

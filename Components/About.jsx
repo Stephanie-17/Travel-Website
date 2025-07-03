@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './About.css'
 import pic1 from '../src/assets/Brazil.jpg'
 import pic2 from '../src/assets/China.jpg'

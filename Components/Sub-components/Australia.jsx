@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import open from  '../../src/assets/circleDashed.svg'
 import close from '../../src/assets/circle.svg'
 import aussieAdventure from '../../src/assets/australianadventure.jpeg'
@@ -15,7 +15,7 @@ if (image === 1) {
             
             <img className="cont-image" src={aussieAdventure} alt="" />
             <p className="cont-text"><span>Adventure playground:</span>Enjoy surfing, snorkeling, hiking, 
-                   scuba diving, skydiving, and camping under the stars. Australia's diverse 
+                   scuba diving, skydiving, and camping under the stars. Australias diverse 
                    climates and landscapes make it perfect for outdoor enthusiasts.
 
 </p>
@@ -38,7 +38,7 @@ if (image === 1) {
             <p className="cont-text"><span>Coastal charm:</span>Discover pristine beaches, coral reefs,
                         and scenic coastlines, including the Great Barrier Reef, Surfers Paradise,
                          Bondi Beach, and Margaret River. With over 50,000 kilometers of coastline,
-                          you'll find plenty of secluded spots.
+                          youll find plenty of secluded spots.
                        </p>
 
            <div className="btn-imgs">
@@ -58,7 +58,7 @@ if (image === 1) {
             <img className="cont-image" src={aussieNature} alt="" />
             <p className="cont-text"><span>Natural marvels:</span>Marvel at Uluru (Ayers Rock), the Great Ocean 
                        Road, Blue Mountains National Park, Kakadu National Park, and the Pinnacles 
-                       Desert. Australia's diverse landscapes are breathtaking.
+                       Desert. Australias diverse landscapes are breathtaking.
                        </p>
 
            <div className="btn-imgs">
@@ -76,9 +76,9 @@ if (image === 1) {
         <div className="Africa2-cont">
             
             <img className="cont-image" src={aussieUrban} alt="" />
-            <p className="cont-text"><span>Urban delights:</span>Australia's cities are vibrant and cosmopolitan. 
-                   Sydney's Opera House and Harbour Bridge are must-visits, while Melbourne's
-                    cultural scene and Brisbane's arts scene are worth exploring.
+            <p className="cont-text"><span>Urban delights:</span>Australias cities are vibrant and cosmopolitan. 
+                   Sydneys Opera House and Harbour Bridge are must-visits, while Melbournes
+                    cultural scene and Brisbanes arts scene are worth exploring.
                    </p>
            <div className="btn-imgs">
               <img onClick={()=> setImage(1)} src={close} alt="" />

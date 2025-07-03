@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Navbar.css'
 import { useState } from 'react'
 import menuIcon from '../src/assets/menu.svg'

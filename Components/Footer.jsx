@@ -1,7 +1,6 @@
-import React from 'react'
+
 import './Footer.css'
 import ig from '../src/assets/instagram-logo (1).png'
-import linkedin from '../src/assets/linkedin (1).png'
 import fb from '../src/assets/facebook.png'
 
 const Footer = () => {

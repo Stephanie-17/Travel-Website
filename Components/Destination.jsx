@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Destcontinent from './Sub-components/Destcontinent'
 import Destsmallcontinent from './Sub-components/Destsmallcontinent'
 

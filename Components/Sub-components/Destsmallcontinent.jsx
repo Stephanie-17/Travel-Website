@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Africa from './Africa'
 import Asia from './Asia'
 import Australia from './Australia'

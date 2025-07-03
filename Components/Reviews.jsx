@@ -1,7 +1,6 @@
-import React from 'react'
+
 import quote from '../src/assets/quote.png'
 import persona1 from '../src/assets/persona4.jpeg'
-import persona2 from '../src/assets/persona2.jpeg'
 import persona3 from '../src/assets/persona3.jpeg'
 import './Reviews.css'
 

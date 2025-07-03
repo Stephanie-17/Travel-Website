@@ -1,5 +1,4 @@
 import { useState } from "react"
-import React  from 'react'
 import adventure from '../../src/assets/adventure.jpeg'
 import beach from '../../src/assets/beach.jpeg'
 import cuisine from '../../src/assets/cuisine.jpeg'
@@ -59,7 +58,7 @@ if (image === 1) {
             <img className="cont-image" src={cuisine} alt="" />
             <p className="cont-text"><span>Warm hospitality and cuisine:</span> Indulge in African hospitality, savoring spicy jollof rice
                         , flavorful tagines, and tender injera bread. Engage with locals, learn traditional dances, or join a 
-                        festive celebration to experience Africa's warmth.
+                        festive celebration to experience Africas warmth.
                             </p>
 
            <div className="btn-imgs">
@@ -77,7 +76,7 @@ if (image === 1) {
         <div className="Africa2-cont">
             
             <img className="cont-image" src={heritage} alt="" />
-            <p className="cont-text"><span>Rich cultural heritage:</span>Discover Africa's vibrant cultural tapestry,
+            <p className="cont-text"><span>Rich cultural heritage:</span>Discover Africas vibrant cultural tapestry,
                              with 2,000 languages and 3,000 ethnic groups. Explore museums, historical sites,
                               and cultural festivals to uncover ancient traditions and modern identity.
                             </p>
@@ -97,7 +96,7 @@ if (image === 1) {
         <div className="Africa2-cont">
             
             <img className="cont-image" src={wildlife} alt="" />
-            <p className="cont-text"><span>Wildlife and nature:</span> Experience Africa's incredible wildlife and natural wonders
+            <p className="cont-text"><span>Wildlife and nature:</span> Experience Africas incredible wildlife and natural wonders
                         , from majestic lions to breathtaking Victoria Falls. Witness the Great Migration, explore national
                          parks, or take a hot air balloon safari.
                             </p>

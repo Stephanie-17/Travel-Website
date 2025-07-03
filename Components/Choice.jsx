@@ -1,4 +1,4 @@
-import React from 'react'
+
 import postcard from '../src/assets/postcards1.png'
 import './Choice.css'
 

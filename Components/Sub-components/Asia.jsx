@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import open from  '../../src/assets/circleDashed.svg'
 import close from '../../src/assets/circle.svg'
 import asianBeauty from '../../src/assets/asianBeauty.jpeg'
