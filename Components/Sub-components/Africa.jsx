@@ -1,7 +1,7 @@
 import { useState } from "react"
 import adventure from '../../src/assets/adventure.jpeg'
 import beach from '../../src/assets/beach.jpeg'
-import cuisine from '../../src/assets/cuisine.jpeg'
+import cuisine from '../../src/assets/Cuisine.jpeg'
 import heritage from '../../src/assets/cultural-heritage.jpeg'
 import wildlife from '../../src/assets/wild-life.jpeg'
 import open from  '../../src/assets/circleDashed.svg'
