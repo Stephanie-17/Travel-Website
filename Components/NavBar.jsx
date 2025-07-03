@@ -1,5 +1,5 @@
 
-import './Navbar.css'
+import './NavBar.css'
 import { useState } from 'react'
 import menuIcon from '../src/assets/menu.svg'
 import closeIcon from '../src/assets/close.svg'
