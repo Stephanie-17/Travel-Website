@@ -1,0 +1,153 @@
+.hero-cont{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.hero-headr{
+    font-family: modak;
+    font-size: 404%;
+    text-align: center;
+    color: transparent;
+   -webkit-text-stroke: 1px white;
+
+}
+.hero-pg{
+    width: 60%;
+  margin: auto;
+  font-size: 2vw;
+}
+.hero-btn{
+    width: 10vw;
+    height: 7vh ;
+    background-color: rgba(63, 165, 244, 0.932);
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+@media (min-width:320px) {
+    .hero-cont{
+        width: 70%;
+    }
+    .hero-headr{
+        margin-top: 20%;
+        font-size: 250%;
+    }
+    .hero-pg{
+        margin-top: -30px;
+        font-size: 4vw;
+    }
+    .hero-btn{
+        width: 25vw;
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width:390px) {
+    .hero-btn{
+        height: 13vw;
+        width: 35vw;
+    }
+    .hero-pg{
+        width: 80%;
+    }
+    .hero-headr{
+        width: 100%;
+        font-size:  300%;
+    }
+}
+ @media (min-width:430px) {
+    .hero-btn{
+        width: 25vw;
+        height: 9vw;
+    }
+ }
+
+@media (min-width:640px) {
+   .hero-btn{
+    width: 15vw;
+    height: 6vh;
+    font-size: 100%;
+   }
+   .hero-headr{
+    font-size: 420%;
+   }
+   .hero-pg{
+    font-size: 140%;
+   }
+    
+ }
+
+ 
+@media (min-width:800px) {
+    .hero-btn{
+        width: 15vw;
+        height: 8vh;
+        font-size: 110%;
+    }
+
+    .hero-pg{
+        font-size: 150%;
+    }
+    .hero-headr{
+        font-size: 400%;
+    }
+}
+
+@media (min-width:1000px) {
+    .hero-headr{
+        font-size: 430%;
+    }
+    .hero-pg{
+        font-size:120% ;
+    }
+    .hero-btn{
+        width: 12vw;
+        font-size: 120%;
+        height: 7vh;
+    }
+}
+@media (min-width:1400px) {
+    
+    .hero-btn{
+        width: 10vw;
+        height: 7vh ;
+        background-color: rgba(63, 165, 244, 0.932);
+        border: none;
+        border-radius: 10px;
+        margin-top: 30px;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+    
+    }
+
+    .hero-cont{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 200px;
+    }
+    .hero-headr{
+        font-family: modak;
+        font-size: 5vw;
+        text-align: center;
+        color: transparent;
+       -webkit-text-stroke: 1px white;
+    
+    }
+    .hero-pg{
+        width: 70%;
+      margin: auto;
+      font-size: 1.7vw;
+    }
+
+
+}

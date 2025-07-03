@@ -1,0 +1,127 @@
+.reviews p{
+    color: yellow;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: -30px;
+    margin-top: 100px;
+}
+.reviews h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 120px;
+}
+
+
+
+.reviews-cont{
+   display: flex;
+  width: 90vw;
+  margin-top: 50px;
+  justify-content: space-between;
+  margin: auto;
+  
+  
+}
+.review-text p{
+    margin-top: 19px;
+   width: 100px;
+   color: #000;
+   font-size: 10px;
+   overflow: hidden;
+}
+.personal-review{
+    width: 200px;;
+    display: flex;
+    position: relative;
+    border : 4px solid black;
+    
+    padding: 30px;
+    color: black;
+    border-radius: 50px;
+ 
+  
+   height: 170px;
+   margin-left: 10px;
+   transition: margin-top 0.9s;
+   transition: width 0.9s;
+}
+.personal-review:hover{
+    margin-top: -30px;
+    width: 31vw;
+}
+.absolute{
+    position: absolute;
+    top: -30px;
+    left: -20px;
+}
+.personas img{
+    border-radius: 100px;
+    width: 100px;
+    background-color: rgb(0, 7, 12);
+}
+.personas{
+    position: absolute;
+    right: -50px;
+    top: 0px;
+    padding: 10px;
+    border-radius: 70px;
+    background-color: rgb(0, 7, 12);
+   
+}
+.personal-review{
+    display: flex;
+    background-color:  rgba(17, 117, 193, 0.932);
+}
+#rvw-btn{
+    width: 100px;
+    height: 40px;
+   background: transparent;
+   border: 2px solid  rgba(17, 117, 193, 0.932) ;
+   color:  rgba(17, 117, 193, 0.932);
+   margin-left: 40%;
+   margin-bottom: 100px;
+   margin-top: 40px;
+    cursor: pointer;
+}
+@media (min-width:300px) {
+    .reviews-cont{
+        display: block;
+    }
+    .personal-review{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .review-text p{
+        font-size: 15px;
+    }
+    .personas img{
+        width: 85px;
+      
+    }
+    .personas{
+        right: -30px;
+    }
+}
+
+@media (min-width:630px) {
+    .reviews-cont{
+        display: flex;
+        justify-content: space-between;
+    }
+    .personal-review{
+        margin: 0;
+    }
+}
+@media (min-width:1000px) {
+   .personal-review{
+    width: 30vw;
+   } 
+   
+   #rvw-btn{
+    margin-left: 45%;
+   }
+   .review-text p{
+    width: 300px;
+    font-size: 14px;
+   }
+}

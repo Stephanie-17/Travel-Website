@@ -1,0 +1,60 @@
+.buttons2{
+    width: 39vw;
+    margin: auto;
+    margin-bottom: 70px;
+  
+}
+.buttons2 button{
+    margin: 10px;
+    background-color: rgb(13, 255, 255);
+    height: 4vh;
+    width: 6vw;
+    border-radius: 10px;
+    transition: background-color 0.8s;
+    cursor: pointer;
+}
+.buttons2 button:focus{
+    background-color: rgb(0, 31, 38);;
+    color: aqua;
+}
+
+
+
+
+@media (min-width:300px) {
+    .buttons2 button{
+        width: 10vw;
+        
+        
+       
+        flex-basis: 24%;
+    }
+    
+    .buttons2{
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-left: 40px;
+        justify-content: center;
+        margin: auto;
+       
+    }
+   
+    
+}
+@media (min-width:600px) {
+    .buttons2 button{
+    flex-basis: 15%;
+    }
+}
+@media (min-width:920px) {
+    .Africa2-cont{
+        display: none;
+    }
+    .buttons2{
+        display: none;
+    }
+}
+

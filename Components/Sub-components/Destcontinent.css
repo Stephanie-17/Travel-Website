@@ -1,0 +1,165 @@
+.Africa-cont{
+    width: 65vw;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+}
+.buttons{
+    width: 49vw;
+    margin: auto;
+    margin-bottom: 70px;
+   
+}
+.buttons button{
+    margin: 10px;
+    background-color:  rgba(63, 165, 244, 0.932);;
+  
+    height: 4vh;
+    width: 6vw;
+    border-radius: 10px;
+    transition: background-color 0.8s;
+    cursor: pointer;
+}
+.buttons button:focus{
+    background-color: rgb(0, 31, 38);;
+    color: aqua;
+}
+.reasons{
+    display: flex;
+   text-align: left;
+    align-items: center;
+    
+}
+.Africa-cont h1,
+.Africa-cont h2{
+margin-bottom: 130px;
+}
+.Africa-cont span{
+    height: 160vh;
+    background-color: aliceblue;
+    width: 10px;
+    margin-right:100px;
+    margin-top: -70px;
+    margin-left: 100px;
+}
+.reasons img{
+    width: 15vw;
+    margin-bottom: 5vw;
+}
+.reasons p{
+    margin-bottom: 5vw;
+    font-size: 17px;
+}
+.right-side img,
+.left-side img{
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 130px;
+    box-shadow: 2px 3px 10px;
+   
+    animation:bounce 7s infinite linear;
+    
+}
+.right-side span,
+.left-side span{
+    color: yellow;
+    background-color: rgb(0, 31, 38);
+    margin-right: 0.5vw;
+    margin-left: 0;
+}
+@keyframes bounce {
+    0%,100%{
+   translate:0 ;
+    }
+
+    50%{
+    translate: 0 -20px;
+    }
+}
+@media (max-width:919px) {
+    .Africa-cont{
+        display: none;
+    }
+}
+@media (min-width:920px) {
+   .Africa-cont{
+    font-size: 2.3vw;
+   }
+    .left-side img,
+   .right-side img{
+    width: 20vw;
+    height: 190px;
+   } 
+   .buttons{
+    display: flex;
+   }
+   .buttons button{
+    width: 18vw;
+   }
+   .Africa-cont span{
+    height: 160vh;
+   }
+}
+@media (min-width:1100px) {
+    .left-side img,
+    .right-side img{
+        height: 220px;
+    }
+}
+@media (min-width:1200px) {
+    .left-side img,
+   .right-side img{
+    width: 20vw;
+    height: 240px;
+   }
+   .Africa-cont span{
+    height: 140vh;
+   }
+   .Africa-cont{
+    font-size: 1.5vw;
+   }
+   .left-side,
+   .right-side{
+    font-size: 1vw;
+   }
+  
+}
+
+@media (min-width:1360px) {
+    .left-side img,
+    .right-side img{
+        height: 260px;
+    }
+    .left-side p,
+    .right-side p{
+        font-size: 1.4vw;
+    }
+    .Africa-cont span{
+        height: 160vh;
+    }
+
+
+}
+
+@media (min-width:1470px) {
+    .left-side img,
+    .right-side img{
+        height: 250px;
+        width: 17vw;
+    }
+
+    .left-side p,
+    .right-side p{
+        font-size: 1.3vw;
+    }
+}
+
+@media (min-width:1590px) {
+    .left-side img,
+    .right-side img{
+        height: 270px;
+        width: 13vw;
+    }
+
+  
+}

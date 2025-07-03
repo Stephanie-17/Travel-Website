@@ -1,0 +1,47 @@
+.container{
+    background-image: url(/src/assets/starry\ night.jpg);
+   background-size: cover;
+   background-position: center;
+   overflow: visible;
+   width: 100%;
+
+ 
+}
+/* @media (min-width:300px) {
+   .container{
+    width: 100vh;
+   }
+   
+}
+
+@media (min-width:400px) {
+    .container{
+     width: 100vh;
+    }
+    
+ }
+ @media (min-width:390px) {
+    .container{
+     width: 100vh;
+    }
+    
+ }
+@media (min-width:640px) {
+   .container{
+    width: 100vh;
+    height: 120vh;
+   }
+   
+}
+@media (min-width:750px) {
+  .container{
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (min-width:1000px) {
+   .container{
+      width: 100%
+      
+   }
+} */

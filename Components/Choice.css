@@ -1,0 +1,118 @@
+#postcard{
+    width: 35%;
+    height: 40vh;
+   
+    margin-left: 3%;
+}
+.choice-cont{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 100px;
+    font-size: 2.4vw;
+    width: 90%;
+}
+.postcard2{
+    display: none;
+    object-fit: contain;
+}
+
+/* @media (max-width:1000px) {
+    .choice-cont{
+        width: 80%;
+        display: block;
+    }
+    .postcard1{
+      
+       display: none;
+    }
+    .choice-text{
+        width: 80%;
+    }
+    .postcard2{
+        display: block;
+        width: 55vw;
+        margin: auto;
+       
+    }
+} */
+
+/* @media (min-width:900px) {
+    .choice-cont{
+        width: 90%;
+
+    }
+  
+
+} */
+@media (min-width:300px) {
+    .choice-cont{
+        display: block;
+        margin: auto;
+        margin-top: 90px;
+        margin-bottom: 90px;
+        font-size: 4vw;
+    }
+    .postcard2{
+        display: block;
+        width: 0vw;
+      
+        object-fit: contain;
+    }
+    #postcard{
+        width: 0;
+        display: none;
+    }
+}
+@media (min-width:500px) {
+    .choice-text{
+        font-size: 3vw;
+    }
+}
+@media (min-width:700px) {
+    .choice-text{
+        font-size: 2vw;
+    }
+}
+
+
+@media (min-width:1000px) {
+   .choice-cont{
+    width: 90%;
+    align-items: center;
+    font-size: 1vw;
+    display: block;
+    margin:2%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   } 
+  
+   .choice-text{
+    width: 100%;
+    margin: 0px;
+    font-size: 1.7vw;
+}
+#postcard{
+    width: 0%;
+    height: auto;
+    margin-right: 40px;
+    
+}
+.postcard2{
+    width: 0vw;
+    height: 65vh;
+    display: none;
+}
+
+}
+@media (min-width:1300px) {
+    .choice-cont{
+        display: flex;
+    }
+    .choice-text{
+        font-size: 1.4vw;
+    }
+    .postcard2{
+        display: none;
+    }
+}

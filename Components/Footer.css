@@ -1,0 +1,35 @@
+footer{
+    text-align: center;
+    margin-top: 120px;
+}
+.info{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.closing-words h1{
+    font-family: modak;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+hr{
+    opacity: 0.5;
+}
+@media (max-width:550px) {
+    .info{
+        display: block;
+    }
+    .logos{
+        margin: auto;
+       
+    }
+}

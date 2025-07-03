@@ -1,0 +1,17 @@
+.stats-cont{
+   display: flex;
+   justify-content: space-between;
+  font-size: 1.7vw;
+   width: 90%;
+   margin: auto;
+}
+.stats h1{
+   font-family: modak;
+   font-weight: 400;
+   color:  rgba(63, 165, 244, 0.932);
+}
+@media (max-width:545px) {
+   .stats-cont{
+      display: none;
+   }
+}

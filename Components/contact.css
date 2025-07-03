@@ -1,0 +1,47 @@
+.contact-cont{
+    background-image: url(../src/assets/Contact-img.jpeg);
+ height: 70vh;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.contact{
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+   height: 200px;
+    padding: 50px 0;
+    background: black;
+    opacity: 0.7;
+    border-radius:40px ;
+}
+
+.contact input{
+    display: block;
+    margin: auto;
+    width: 270px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.rvw-btn{
+    width: 100px;
+    height: 40px;
+   background: transparent;
+   border: 2px solid  rgba(17, 117, 193, 0.932) ;
+   color:  rgba(17, 117, 193, 0.932);
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+@media (min-width:1000px) {
+    .contact{
+        width: 400px;
+        height: 230px;
+    }
+}
