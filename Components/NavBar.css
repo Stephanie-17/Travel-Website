@@ -31,11 +31,12 @@
     position: fixed;
     right: 0;
     top: 0;
-    height: 60vh;
+    height: 437px;
     left: 5vw;
     color: #000;
     display: none;
-    width: 50vw;
+    width: 174px;
+    z-index: 2;
 }
 .side-bar p:hover{
     background-color: rgb(69, 69, 86);
@@ -46,10 +47,11 @@
 }
 
 #close{
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 41vw; 
     background-color: white;
+    z-index: 2;
 }
 #menu{
     display: none;
@@ -83,11 +85,11 @@
    }
    .side-bar{
     display: block;
-    left: 49vw;
+    left: 52%;
    }
    .side-bar p{
     display: block;
-    font-size: 7vw;
+    font-size: 20px;
    }
 }
 @media (min-width:400px) {
@@ -112,15 +114,31 @@
     
     .side-bar{
         display: block;
-        left: 65vw;
+        left: 65%;
        }
        .side-bar p{
         display: block;
-        font-size: 5vw;
+        font-size: 20px;
        }
        #close{
-        left: 58vw;
+        left: 58%;
        }
+}
+@media (min-width:500px) {
+    .side-bar{
+        left: 67%;
+    }
+    #close{
+        left: 60%;
+    }
+}
+@media (min-width:560px) {
+    .side-bar{
+        left: 70%;
+    }
+    #close{
+        left: 65%;
+    }
 }
 @media (min-width:640px) {
     .nav-items{
